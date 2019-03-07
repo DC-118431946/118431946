@@ -6,11 +6,7 @@
     <body>
         
         <!-- //strating the session to get the session variable from last page -->
-        
-    
-    
-
-
+    <center>    
 <?php
 
 session_start();
@@ -20,11 +16,12 @@ echo "The name is :".$fullNameValue.".";
 echo "<br></br>";
 echo "The total value is : ".$totalValue2.".";
 ?>
-        <div>
+    
+         <div>
         <br>
         <a href="Ebus2.php" class="previous">&laquo; Back</a>
         </div>
-
-
+    </center>
+    
 </body>
 </html

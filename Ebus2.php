@@ -38,15 +38,28 @@ $totalValue = $_POST['txtTotal'];
                         </tr>
                         <tr>
                             <td>Name</td>
-                            <td><input type="text" id="txtName" name="txtName" value=""/></td>
+                            <td><input type="text" id="txtName" name="txtName" value="" required/></td>
                         </tr>
                          <tr>
                             <td>Phone Number</td>
-                            <td><input type="text" id="txtNum" name="txtNnum" value=""/></td>
+                            <td><input type="text" id="txtNum" name="txtNumber" value="" required/></td>
                         </tr>
                          <tr>
                             <td>Password</td>
-                            <td><input type="text" id="txtPassword" name="txtPassword" value=""/></td>
+                            <td><input type="password" id="myInput"  value="" required/><br>
+                                <input type="checkbox" onclick="myFunction()">Show Password
+                                
+                        <script>
+                            function myFunction() {
+                                var x = document.getElementById("myInput");
+                                if (x.type === "password"){
+                                    x.type = "text";
+                                } else {
+                                    x.type = "password"
+                                }
+                            }
+                            </script>
+                            
                         </tr>
                          <tr>
                             
