@@ -1,17 +1,34 @@
+<?php
+?>
+
+       
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+    <html lang="en" xmins="http.//www.w3.org/1999/xhtml">
     <head>
-        <meta charset="UTF-8">
-        <title></title>
+        <meta charset="utf-8" />
+        <title>Index</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    <h1>Main Menu</h1>
     </head>
-    <body>
-        <?php
-       echo 'hello world ';//how to print word in PHP
-        ?>
-    </body>
+
+
+
+	<body>
+            <br>
+            <a href="CV.html"> CV </a>
+            </br>
+            <br>
+            <a href="tiltedpage_scroll_demo.html"> Interests </a> 
+            </br>
+            <br>
+            <a href="Consulting.html"> Consultant Services </a>
+            </br>
+            
+
+	
+	
+
+
+	</body>
+
 </html>
